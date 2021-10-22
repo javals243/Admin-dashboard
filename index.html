@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css"
+        integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <!-- navBar -->
+    <nav class="navbar">
+        <h4>Dashboard</h4>
+        <div class="profile">
+            <span class="fas fa-search">
+            </span>
+            <img class="profile-image" src="https://picsum.photos/200/200?random=1" />
+
+            <p class="profile-name">Joe Doe</p>
+        </div>
+    </nav>
+    <!-- sideBar -->
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="side-toggle">
+        <span class="fas fa-bars"></span>
+    </label>
+
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <span class="fas fa-clipboard-list">
+
+            </span>
+            <p>Overview</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-users">
+
+            </span>
+            <p>Teams</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-credit-card">
+
+            </span>
+            <p>Payment</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-chart-line">
+
+            </span>
+            <p>Statistic</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-id-card">
+
+            </span>
+            <p>Contact</p>
+        </div>
+        <div class="sidebar-menu">
+            <span class="fas fa-cog">
+
+            </span>
+            <p>Settings</p>
+        </div>
+    </div>
+    <!-- mainDashboard -->
+
+    <main>
+        <div class="dashboard-container">
+            <!-- 4 cards top  -->
+
+            <div class="card total1">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Revenue</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>1,873,250 <span>USD</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-money-check-alt "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total2">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>total order</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>1,873,250 <span>order</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-boxes "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total3">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Customers</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>340<span>Compagnie</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-users "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card total4">
+                <div class="info">
+                    <div class="info-detail">
+                        <h3>Dailly Orders</h3>
+                        <p>lorem ipsum dolor</p>
+                        <h2>156 <span>Orders</span></h2>
+                    </div>
+                    <div class="info-image">
+                        <i class="fas fa-shipping-fast  "></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 cards bottom -->
+            <div class="card detail"> </div>
+            <div class="card customer"> </div>
+
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
